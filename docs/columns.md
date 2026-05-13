@@ -1,0 +1,21 @@
+# Column descriptions
+
+- `compound_name`: Common name of the molecule or molecular tool.
+- `smiles`: SMILES structure string, when applicable.
+- `molecule_class`: Type of molecule, such as retinoid, natural product, synthetic analogue, inhibitor, fluorescent probe, or growth factor.
+- `target_or_binding_partner`: Known protein, receptor, enzyme, transporter, metal complex, or biological binding partner.
+- `pathway_or_process`: Biological pathway or process affected by the molecule.
+- `biological_context`: Broad biological area where the molecule is relevant.
+- `model_system`: Cell type, organism, tissue, or experimental system.
+- `effect_or_use`: Reported use or effect in the literature.
+- `source_paper`: Literature or database source.
+- `doi_or_pmid`: DOI or PubMed ID for the source.
+- `synthetic_accessibility`: Notes about whether the molecule appears synthetically simple, moderate, complex, or already available as analogues.
+- `modifiable_positions`: Chemical positions or functional groups that may be suitable for analogue or probe development.
+- `probe_opportunity`: Possible use as a fluorescent probe, photoaffinity probe, clickable probe, labelled analogue, or mode-of-action tool.
+- `fluorescent_probe_possible`: Yes, no, unknown, or already reported.
+- `photoaffinity_probe_possible`: Yes, no, unknown, or already reported.
+- `why_synthesis_could_help`: Short explanation of how organic synthesis could improve or extend the molecule as a biological tool.
+- `design_opportunity`: Main type of chemical design opportunity.
+- `design_rationale`: Reason why this molecule is interesting from a synthetic chemistry or chemical biology perspective.
+- `notes`: Extra comments.
